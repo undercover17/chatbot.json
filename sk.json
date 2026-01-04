@@ -1,0 +1,392 @@
+
+
+Maaf atas kesalahan sebelumnya. Anda benar, konteks dokumen tersebut adalah Surat Keputusan (SK) Organisasi, bukan data produk.
+
+Berikut adalah struktur JSON yang sudah disesuaikan sepenuhnya dengan konteks dokumen SK DPP AGPAII. JSON ini mencakup informasi header, klausul pertimbangan, keputusan, dan seluruh data personalia serta pembagian tugas yang tertera di lampiran.
+
+```json
+{
+  "surat_keputusan": {
+    "jenis": "SURAT KEPUTUSAN DEWAN PENGURUS PUSAT ASOSIASI GURU PENDIDIKAN AGAMA ISLAM INDONESIA (DPP AGPAII)",
+    "nomor": "055/SKEP/DPP/I/A-1/V/2025",
+    "perihal": "PENGESAHAN SUSUNAN DEWAN PENGURUS PUSAT ASOSIASI GURU ANTARWAKTU PENDIDIKAN AGAMA ISLAM INDONESIA (DPP AGPAII) MASA BAKTI 2022-2027",
+    "tanggal_ditetapkan": {
+      "hari": "Jum'at",
+      "tanggal": "09 Mei 2025",
+      "tempat": "Jakarta"
+    },
+    "penandatangan": {
+      "ketua_umum": {
+        "nama": "Drs. H. Endang Zenal. M.Ag",
+        "nia": "3206210001"
+      },
+      "sekretaris_jenderal": {
+        "nama": "Ahmad Budiman, S.Ag., M.Pd.",
+        "nia": "3172050001"
+      }
+    }
+  },
+  "klausul": {
+    "menimbang": [
+      "Dewan Pengurus Pusat Asosiasi Guru Pendidikan Agama Islam Indonesia Masa Bakti 2017-2022 telah berakhir.",
+      "Hasil Kongres IV Asosiasi Guru Pendidikan Agama Islam Indonesia di Padang Sumatera Barat tanggal 30 September-2 Oktober 2022.",
+      "Amanat peserta Kongres IV AGPAII kepada Tim Formatur dengan tugas dan wewenang Tim Formatur untuk menyelesaikan susunan pengurus DPP AGPAII Masa Bakti 2022-2027"
+    ],
+    "mengingat": [
+      "Undang-Undang RI Nomor 20 tahun 2003 tentang Sistem Pendidikan Nasional",
+      "Undang-Undang RI Nomor 14 Tahun 2005 tentang Guru dan Dosen",
+      "PP Nomor 55 tahun 2007 tentang Pendidikan Agama dan Pendidikan Keagamaan",
+      "PMA No 16 Tahun 2010 tentang Pendidikan Agama dan Keagamaan",
+      "PP No 19 Tahun 2017 tentang Perubahan atas PP No 74 Tahun 2008 tentang Guru",
+      "AD/ART Asosiasi Guru Pendidikan Agama Islam Indonesia"
+    ],
+    "memperhatikan": [
+      "Hasil pemilihan Ketua Dewan Pembina, Ketua Umum Dewan Pengurus Pusat Asosiasi Guru Pendidikan Agama Islam Indonesia dan Formatur pada Kongres IV AGPAII di Padang Sumatera Barat tanggal 2 Oktober 2022.",
+      "Hasil Rapat Tim Formatur tentang Susunan Dewan Pengurus Pusat Asosiasi Guru Pendidikan Agama Islam Indonesia (DPP AGPAII) Masa Bakti 2022-2027 pada tanggal 18 Oktober 2022",
+      "Bahwa nama-nama pengurus DPP AGPAII Masa Bakti 2022-2027 hasil rapat Tim Formatur dipandang cakap dan memenuhi ketentuan organisasi."
+    ],
+    "memutuskan": [
+      "Mengesahkan Susunan DPP AGPAII Masa Bakti 2022-2027 sebagaimana terlampir.",
+      "Mengamanatkan kepada DPP AGPAII tersebut di atas, untuk melaksanakan tugas-tugas kepengurusan AGPAII dengan keharusan berpedoman pada AD/ART AGPAII dan peraturan-peraturan organisasi yang berlaku di lingkungan AGPAII.",
+      "Surat Keputusan ini berlaku sejak tanggal ditetapkan dan apabila dalam penetapannya terdapat perubahan atau kekeliruan, Surat Keputusan ini akan diperbaiki sebagaimana mestinya."
+    ]
+  },
+  "struktur_organisasi": {
+    "dewan_pendiri": [
+      "Prof. Dr. H. Imam Tholkhah, M.Pd.",
+      "Drs. H. Afrizal Abuzar",
+      "Drs. H. Sholeh Dimyati, M.F., M.A.",
+      "Drs. H. Abd. Rahman, M.A.",
+      "Dr. Mahnan Marbawi, M.A."
+    ],
+    "dewan_penasihat": [
+      "Dr. KH. Lukman Hakim Syaifuddin",
+      "Prof. Dr. H. Imam Tholkhah, M.Pd.",
+      "Prof. K.H. Yudian Wahyudi, Ph.D.",
+      "Prof. Dr. H. Muhammad Ali Ramdhani, S.TP.",
+      "Prof. Dr. H. Abdul Muti, M.Pd.",
+      "Dr. H. Imam Syafei, M.Pd.",
+      "Drs. K.H. Amrullah, M.Si.",
+      "Dr. K.H. Abu Bakar Sidik, M.Ag.",
+      "Dr. K.H. Andi Warisno, M.M.Pd.",
+      "K.H. Moh. Noor Hasyim Husein"
+    ],
+    "majelis_kehormatan": {
+      "ketua": "Drs. H. Sholeh Dimyati M.F., M.A.",
+      "sekretaris": "Kamaludin Sir, S.Ag., M.A.",
+      "anggota": [
+        "Drs. H. Ridhwan, Ms.M.M.",
+        "Drs. H. Azwan Fery, M.A.Pd.",
+        "Dr. H. Ijen Zaenal Abidin, M.Ag.",
+        "Drs. H. Subhan",
+        "Drs. H. Zainal Abidin",
+        "Drs. H. Dzakir",
+        "Dr. H. Mahfud",
+        "Drs. Muryadi, M.Pd.",
+        "Drs. Agus Hamdan Satiagraha, M.M."
+      ]
+    },
+    "dewan_pakar": [
+      "Dr. Muhammad Kosim, M.A.",
+      "Dr. Asep Nursobah, M.Pd.",
+      "Dr. Hj. Asmaiwaty Arief, M.Pd.",
+      "Iwan Mistohizzaman",
+      "Ahmad Uzeir, Ph.D."
+    ],
+    "dewan_pembina": {
+      "ketua": "Dr. Mahnan Marbawi, M.A.",
+      "sekretaris": "Dr. Daruri, S.Ag., M.Pd.I.",
+      "anggota": [
+        "Drs. H. Afrizal Abuzar",
+        "Drs. KH. Bahtiar",
+        "Dra. Hj. Iim Halimah",
+        "Dr. Muhammad Ahsan, M.Kom.",
+        "Muh. Tajudin Ch., S.Ag., M.A.",
+        "Drs. Ali Nurdin",
+        "Muhamad Jemadi, S.Ag., M.A."
+      ]
+    },
+    "dewan_pengurus_harian": {
+      "ketua_umum": "Drs. H. Endang Zenal, M.Ag.",
+      "ketua": [
+        {
+          "jabatan": "Ketua I",
+          "nama": "Rimelfi, S.Pd.I., M.M., M.A."
+        },
+        {
+          "jabatan": "Ketua II",
+          "nama": "Muh. Ghozali, S.Ag., M.Pd."
+        },
+        {
+          "jabatan": "Ketua III",
+          "nama": "Syaekudin, S.Ag., M.Pd.I."
+        }
+      ],
+      "sekretaris_jenderal": "Ahmad Budiman, S.Ag., M.Pd.",
+      "wakil_sekretaris_jenderal": [
+        {
+          "jabatan": "Wakil Sekjen I",
+          "nama": "Dr. Budi Mulia, M.Pd.I."
+        },
+        {
+          "jabatan": "Wakil Sekjen II",
+          "nama": "Abdul Azis Rofik, S.Ag., M.Pd.I."
+        },
+        {
+          "jabatan": "Wakil Sekjen III",
+          "nama": "Nurhuda Kurniawan, S.Ag., M.S.I."
+        }
+      ],
+      "bendahara_umum": "Agus Setiawan, S.Ag., M.Pd.",
+      "bendahara": [
+        {
+          "jabatan": "Bendahara I",
+          "nama": "Ramaini, S.Ag., M.Pd."
+        },
+        {
+          "jabatan": "Bendahara II",
+          "nama": "Mardiana Ulfa, M.Pd."
+        },
+        {
+          "jabatan": "Bendahara III",
+          "nama": "Nurwastuti Setyowati, S.Pd.I."
+        }
+      ]
+    },
+    "koordinator_wilayah": [
+      {
+        "wilayah": "Sumatera",
+        "nama": "Dedi Syuhada, S.Pd.I., M.Pd."
+      },
+      {
+        "wilayah": "Jawa",
+        "nama": "Ahmad Fadlol, S.Ag., M.Pd.I."
+      },
+      {
+        "wilayah": "Kalimantan",
+        "nama": "H. Sulaiman, S.Ag., M.Pd.I"
+      },
+      {
+        "wilayah": "Sulawesi",
+        "nama": "Lahamiku, S.Ag., M.Pd."
+      },
+      {
+        "wilayah": "Bali dan Nusa Tenggara",
+        "nama": "Sulman Haris, M.Pd."
+      },
+      {
+        "wilayah": "Maluku dan Papua",
+        "nama": "Latuapo, M.A."
+      }
+    ],
+    "ketatalaksanaan_sekretariat": {
+      "koordinator": "Muhammad Rifai, ST.",
+      "sekretaris": "Muhammad Ali Bustomi",
+      "anggota": [
+        "Susan Daniati, S.Pd.I., M.Pd.",
+        "Jejen Zenal Aripin, S.Ag.",
+        "Ajid, S.Ag.",
+        "Anshori, M.Pd.I."
+      ]
+    },
+    "departemen": [
+      {
+        "nama": "ORGANISASI DAN KELEMBAGAAN",
+        "koordinator": "Ahmad Saifudin, S.Ag., M.SI.",
+        "anggota": [
+          "Abdul Palah, S.Ag., M.Pd.I.",
+          "Mulkeis Matondang, M.A.",
+          "Dra. Nurhayati Wahidah, M.Pd.I.",
+          "Musardin, M.Pd.",
+          "Mahmudin, S.Ag., M.Si.",
+          "Sihono, S.Pd.I., M.Pd.I."
+        ]
+      },
+      {
+        "nama": "SENI DAN BUDAYA",
+        "koordinator": "Nur Fadhilah, M.Pd.",
+        "anggota": [
+          "Siti Kusrini, S.Pd., S.Pd.I., S.M.I.",
+          "Revi Asneli, M.A.",
+          "Rista Yusma Yanti, S.Ag.",
+          "Imam Sibawaihin, S.Ag.",
+          "Muhammad Ikhwansyah Fitra, S.Pd.I.",
+          "Atiqah, S.Ag., M.M."
+        ]
+      },
+      {
+        "nama": "KESEJAHTERAAN DAN SOSIAL",
+        "koordinator": "Dr. Makhrus Ali",
+        "anggota": [
+          "Dr. Hj. Latifah Mahmudi, M.A.",
+          "Ida Royani, S.Ag., M.Pd.I.",
+          "Yayuk, M.Pd.",
+          "Miswar Harahap, S.Pd.I., M.Pd.",
+          "Drs. Ali Imron, M.Pd.I.",
+          "Sri Rahayu, M.Pd.",
+          "H. Syahril Laode, M.Pd."
+        ]
+      },
+      {
+        "nama": "HUKUM, HAM DAN ADVOKASI",
+        "koordinator": "Ahmad Taufik Nasution, S.Ag., M.Pd.I.",
+        "anggota": [
+          "Wawan Gunawan, S.Ag., M.M.",
+          "Dedi Noviyanto, M.Pd.I.",
+          "Dra. Retno Endah Sawitri, M.Ag.",
+          "Ahmad Tuppu, M.Pd.I.",
+          "Diana Sustiawati S.Sos., M.Pd.I.",
+          "Muhamad Hudawi, S.Ag., M.H."
+        ]
+      },
+      {
+        "nama": "KERJASAMA DALAM DAN LUAR NEGERI",
+        "koordinator": "M. Hendra Yunal, S.Pd.I., M.Si.",
+        "anggota": [
+          "Hasanudin, M.Pd.",
+          "Drs. Yayat Supriyatna, M.S.i",
+          "Jainuddin, S.Ag., M.Pd.",
+          "Emi Rusnawati, S.Pd.",
+          "Erwin Wasti, S.Ag., M.Pd.I."
+        ]
+      },
+      {
+        "nama": "TEKNOLOGI, INFORMASI DAN KOMUNIKASI",
+        "koordinator": "Dr. Hery Nugroho, M.Pd.",
+        "anggota": [
+          "Andrizal Ali",
+          "Fery Ratnasari Eka, N.D.J.",
+          "Ulfatul Husna, S.Ag., M.Pd.",
+          "Elly Pasaribu, M.Pd.",
+          "Ilam Maolani, S.Pd.I., M.Pd.",
+          "Desi Yuningsih, S.Pd.I."
+        ]
+      },
+      {
+        "nama": "PENELITIAN DAN PENGEMBANGAN",
+        "koordinator": "Dr. H. Atik Tapipin, M.M.Pd.",
+        "anggota": [
+          "Dr. Hj. Diden Rosenda, M.Ag.",
+          "Mudawamah, S.Pd.I., M.A.Pd.",
+          "Dr. Suwari, M.Pd.",
+          "Mukhtar Sangaji, S.Pd.I.",
+          "Dr. Kartika Sari, M.Pd.I."
+        ]
+      }
+    ],
+    "lembaga": [
+      {
+        "nama": "LEMBAGA PENGEMBANGAN EKONOMI SYARIAH (LPES)",
+        "koordinator": "Dr. Jufrial Ara",
+        "sekretaris": "Syamsul Hidayat, S.T., M.A., M.M., M.T.",
+        "anggota": [
+          "Asep Saipuddin, M.Pd.I.",
+          "Rakhmi Ifada, S.Ag., M.Pd.",
+          "Sarasyapti, M.A.",
+          "Ridwan, S,Pd.I., M.Pd.",
+          "Rusini, M.Pd.I",
+          "Darmiaty, S.Pd.I.",
+          "Hj. Ai Nurjanah, M.Pd.I."
+        ]
+      },
+      {
+        "nama": "LEMBAGA KAJIAN AL QUR’AN",
+        "koordinator": "Oman Setiawan, M.M.Pd.",
+        "sekretaris": "Ahmad Ansori, S.Pd.I., M.A.",
+        "anggota": [
+          "Jasman, S.Pd.I.",
+          "Siti Maemona, M.Pd.I.",
+          "Hj. Kunti Suraya Husniyati, S.Ag.,M.Pd.I.",
+          "Khadijah, M.Pd.",
+          "Muslim, S.H.I."
+        ]
+      },
+      {
+        "nama": "LEMBAGA AMIL ZAKAT, INFAQ, SHADAQAH DAN WAKAF (LAZISWA)",
+        "koordinator": "Dr. H. Amin, S.Ag., M.M. Pd.",
+        "sekretaris": "Asep Tori, S.Ag., M.Pd.I.",
+        "anggota": [
+          "Mustahdi, M.Ag.",
+          "Ahlul Fikri, S.Pd.I., M.Pd.",
+          "Miswan, S.Ag., M.Pd., M.Kom.",
+          "Suwarni Sulaiman S.Ag., M.Pd.I.",
+          "Mahadi Siregar, S.Pd.I.",
+          "Ishardi, M.Pd."
+        ]
+      },
+      {
+        "nama": "LEMBAGA DIKLAT DAN PENGEMBANGAN PROFESI (LDPP)",
+        "koordinator": "Dr. H. Anan Baehaki, M.Ag.",
+        "sekretaris": "Sudarjat, M.Pd.",
+        "anggota": [
+          "Soleh Baedowi, M.Pd.I.",
+          "Muhammad Khodiq Alfahmi, M.Pd.",
+          "Erna Yani, M. Pd.I.",
+          "Sulkifli, S.Ag., M.Pd.I.",
+          "Dahlinar, M.A.",
+          "Mukhtar, S.Ag., M.Pd.I.",
+          "Ishaq, M.Pd."
+        ]
+      },
+      {
+        "nama": "LEMBAGA PENDIDIKAN DAN PENGEMBANGAN PRESTASI",
+        "koordinator": "Maman Suryaman, M.Ag.",
+        "sekretaris": "Dr. H. Mochamad Rifki Romdhoni, S.Ag., M.M.Pd.",
+        "anggota": [
+          "Senan S.Ag., M.Pd.I.",
+          "Sukarya, S. Ag., M.Pd.I.",
+          "H.Asep Syaefurrachman, S.Ag., M.Pd.I.",
+          "Farida Yuniar, S.Ag., M.Pd.I.",
+          "Imam Farih, S.Pd.I., M.Pd.",
+          "Syarifuddin, S.Ag.",
+          "Sangad, M.Ag."
+        ]
+      }
+    ]
+  },
+  "pembagian_penanggung_jawab": [
+    {
+      "kelompok": 1,
+      "struktur_penanggung_jawab": {
+        "ketua": "Rimelfi, S.Pd.I., M.M., M.A. (Ketua I)",
+        "wakil_sekjen": "Dr. Budi Mulia, M.Pd.I. (Wakil Sekjen I)",
+        "bendahara": "Ramaini, S.Ag, M.Pd. (Bendahara I)"
+      },
+      "departemen_lembaga": [
+        "Departemen Organisasi dan Kelembagaan",
+        "Departemen Seni dan Budaya",
+        "Departemen Kesejahteraan dan Sosial",
+        "Lembaga Pengembangan Ekonomi Syariah"
+      ]
+    },
+    {
+      "kelompok": 2,
+      "struktur_penanggung_jawab": {
+        "ketua": "Muh. Ghozali, S.Ag., M.Pd. (Ketua II)",
+        "wakil_sekjen": "Abdul Azis Rofik (Wakil Sekjen II)",
+        "bendahara": "Mardiana Ulfa, S.M.Pd (Bendahara II)"
+      },
+      "departemen_lembaga": [
+        "Departemen Hukum, HAM dan Advokasi",
+        "Departemen Kerjasama Dalam dan Luar Negeri",
+        "Lembaga Kajian Al Qur’an",
+        "Lembaga Amil Zakat, Infaq, Shadaqah dan Wakaf"
+      ]
+    },
+    {
+      "kelompok": 3,
+      "struktur_penanggung_jawab": {
+        "ketua": "Syaekudin, S.Ag., M.Pd.I. (Ketua III)",
+        "wakil_sekjen": "Nurhuda Kurniawan, S.Ag., M.S.I. (Wakil Sekjen III)",
+        "bendahara": "Nurwastuti Setyowati, S.Pd.I. (Bendahara III)"
+      },
+      "departemen_lembaga": [
+        "Departemen Teknologi, Informasi dan Komunikasi",
+        "Departemen Penelitian dan Pengembangan",
+        "Lembaga Diklat dan Pengembangan Profesi",
+        "Lembaga Pendidikan dan Pengembangan Prestasi"
+      ]
+    }
+  ]
+}
+```
