@@ -1,10 +1,3 @@
-
-
-Maaf atas kesalahan sebelumnya. Anda benar, konteks dokumen tersebut adalah Surat Keputusan (SK) Organisasi, bukan data produk.
-
-Berikut adalah struktur JSON yang sudah disesuaikan sepenuhnya dengan konteks dokumen SK DPP AGPAII. JSON ini mencakup informasi header, klausul pertimbangan, keputusan, dan seluruh data personalia serta pembagian tugas yang tertera di lampiran.
-
-```json
 {
   "surat_keputusan": {
     "jenis": "SURAT KEPUTUSAN DEWAN PENGURUS PUSAT ASOSIASI GURU PENDIDIKAN AGAMA ISLAM INDONESIA (DPP AGPAII)",
